@@ -11,7 +11,7 @@ pipeline {
             steps {
                 git branch: 'main', 
                     credentialsId: 'GitHub', 
-                    url: 'https://github.com/your-username/Jenkins-Security-Pipeline.git'
+                    url: 'https://github.com/jeel-chheta/Jenkins-Security-Pipeline.git'
             }
         }
 
